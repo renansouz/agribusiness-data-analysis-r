@@ -1,6 +1,8 @@
 # Agribusiness Data Exploratory Analysis 🌱📊
 
-Exploratory data analysis project in R using an Excel dataset built for agribusiness data practice.
+Exploratory data analysis in R on a structured agribusiness dataset, focusing on statistical profiling and data visualization.
+
+Built with Talles.
 
 ## Dataset
 
@@ -11,15 +13,13 @@ The dataset includes 30 observations and 4 variables:
 - `tipo_cultura` — qualitative nominal
 - `nivel_tecnologico` — qualitative ordinal
 
-## Analysis in R
+## Workflow
 
-The script performs:
-
-- import of the Excel dataset
-- structure and type checking
-- descriptive statistics for one quantitative variable
-- graphical analysis of a quantitative variable
-- graphical analysis of a qualitative variable
+- import Excel dataset
+- check structure and data types
+- compute descriptive statistics for one quantitative variable
+- generate graphical analysis for one quantitative variable
+- generate graphical analysis for one qualitative variable
 
 ## Statistics Covered
 
@@ -55,9 +55,9 @@ The script performs:
 
 ## Notes
 
-- The ordinal variable is defined as an ordered factor in R.
-- The mode for the continuous variable is estimated using grouped values.
-- The dataset was structured from public agribusiness references.
+- `nivel_tecnologico` is explicitly modeled as an ordered factor.
+- Mode for the continuous variable is estimated via grouped values.
+- Dataset size is intentionally small, focused on EDA techniques.
 
 ## Authors
 
