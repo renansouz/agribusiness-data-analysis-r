@@ -1,10 +1,3 @@
-# RenanSilva_RM568958_fase2_cap7
-# TallesDuran_RM572772_fase2_cap7
-# ThieseNovaes_RM572659_fase2_cap7
-# JoãoVitor_RM572969_fase2_cap7
-# KevinSantiago_RM573808_fase2_cap7
-
-# INSTALACAO E CARREGAMENTO DE PACOTES
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 pacotes <- c("readxl", "ggplot2", "dplyr", "scales", "gridExtra")
@@ -27,8 +20,7 @@ suppressPackageStartupMessages({
 message("Pacotes carregados com sucesso!\n")
 
 # 1. BASE DE DADOS
-# Certifique-se que o arquivo se chama dados_agro.xlsx na mesma pasta
-dados <- read_excel("dados_agro.xlsx")
+dados <- read_excel("../data/dados_agro.xlsx")
 
 cat("=============================================================\n")
 cat("  ANALISE EXPLORATORIA - AGRONEGOCIO BRASILEIRO\n")
